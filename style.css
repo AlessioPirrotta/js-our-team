@@ -3,3 +3,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+._shadow1{
+    border: 1px solid;
+    box-shadow: 0px 0px 20px 10px rgb(242, 189, 30);
+}
+
+
+._shadow2{
+    text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+    color: rgb(242, 189, 30)
+}
+
+._noshadow{
+    text-shadow: none;
+    color: black;
+}
